@@ -40,17 +40,17 @@ scroll = normal
 }
 
 .pimg1 {
-  background-image: url("../img/india.jpg");
+  background-image: url("../img/monk.jpg");
   min-height: 100%;
 }
 
 .pimg2 {
-  background-image: url("../img/monk.jpg");
+  background-image: url("../img/piramide.jpg");
   min-height: 300px;
 }
 
 .pimg3 {
-  background-image: url("../img/rushmore.jpg");
+  background-image: url("../img/india.jpg");
   min-height: 300px;
 }
 
@@ -296,4 +296,24 @@ header h1 {
     width: 100%;
     min-width: 350px;
   }
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  background: rgb(49, 2, 2);
+  color: #f4f4f4;
+  padding: 0.75rem 1.5rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  text-decoration: none;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+  width: 70px;
+  height: 40px;
+}
+
+.btn:hover {
+  opacity: 0.7;
 }
